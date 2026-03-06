@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import socket
 
-target = input("Enter target IP or domain: ")
+target = input("Enter target IP or domain: ").strip()
 
 try:
     target_ip = socket.gethostbyname(target)
@@ -20,6 +20,4 @@ for port in range(1,1025):
     if result == 0:
         print(f"Port {port} is OPEN")
 
-    s.close()
-
-
+    s.close() 
