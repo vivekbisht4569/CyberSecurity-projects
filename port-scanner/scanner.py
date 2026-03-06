@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3 
 import socket
 
 target = input("Enter target IP or domain: ")
