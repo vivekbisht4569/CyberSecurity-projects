@@ -1,5 +1,7 @@
 # Python Projects
 
+🚧 This repository is currently under development. Labs and write-ups are being added and improved regularly. 
+
 This repository contains various projects developed using Python.  
 The purpose of this repository is to practice programming concepts and build small projects while learning Python.
 
